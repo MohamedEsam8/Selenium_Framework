@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome"></parameter>
+
+    <test name="Regression test">
+        <classes>
+            <class name="tests.RegistrationTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test1">
+        <classes>
+            <class name="tests.ContactUsTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test2">
+        <classes>
+            <class name="tests.HoverMenuTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test3">
+        <classes>
+            <class name="tests.SearchProductTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test4">
+        <classes>
+            <class name="tests.AddToCartTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test5">
+        <classes>
+            <class name="tests.AddToWishListTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test6">
+        <classes>
+            <class name="tests.ChangeCurrencyTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test7">
+        <classes>
+            <class name="tests.AddToCompareListTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test8">
+        <classes>
+            <class name="tests.EmailFriendTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test9">
+        <classes>
+            <class name="tests.AddReviewTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test10">
+        <classes>
+            <class name="tests.MyAccountTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test11">
+        <classes>
+            <class name="tests.RegisteredUserCheckOutTest"></class>
+        </classes>
+    </test>
+    <test name="Regression test12">
+        <classes>
+            <class name="tests.SearchProductByAutoCompleteTest"></class>
+        </classes>
+    </test>
+</suite>
